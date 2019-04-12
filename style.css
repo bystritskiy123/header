@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("./fonts/Montserrat-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("./fonts/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("./fonts/Montserrat-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  background-image: url("./images/portrait-dark-light-man-face.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#main .navbar {
+  background: rgba(0, 0, 0, 0.514);
+  height: 15%;
+}
+#main .navbar .navbar-toggler {
+  background: white;
+}
+#main .navbar .navbar-brand {
+  font-family: "Montserrat-Regular";
+  font-size: 200%;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 5%;
+}
+#main .navbar .navbar-brand span {
+  color: #45c245;
+  font-family: "Montserrat-Black";
+}
+#main .navbar .navbar-nav {
+  margin-left: 30%;
+}
+#main .navbar .navbar-nav .nav-item {
+  font-family: "Montserrat-Bold";
+  color: white;
+  text-transform: uppercase;
+}
+#main #images .column {
+  margin-left: 5%;
+  margin-top: 7%;
+}
+#main #images .column p {
+  color: white;
+  font-family: "Montserrat-Regular";
+  text-transform: uppercase;
+  font-size: 150%;
+}
+#main #text {
+  margin-top: 10%;
+}
+#main #text h2 {
+  font-family: "Montserrat-Light";
+  color: white;
+  text-transform: uppercase;
+  margin-left: 6%;
+  font-size: 250%;
+}
+#main #text h3 {
+  font-family: "Montserrat-Bold";
+  color: white;
+  border: 5px solid #45c245;
+  width: 40%;
+  text-transform: uppercase;
+  margin-left: 6%;
+  font-size: 180%;
+}
+
+#footer {
+  background: blue;
+  background-size: cover;
+  width: 100%;
+  height: 17%;
+}
+#footer .row .col-md-8 .row {
+  margin-left: 3%;
+}
+#footer .row .col-md-8 .row .form-group {
+  margin-left: 3%;
+  margin-top: 1%;
+}
+#footer .row .col-md-8 .row .form-group label {
+  font-family: "Montserrat-Regular";
+  color: white;
+  text-transform: uppercase;
+}
+#footer .row .col-md-8 .row .form-group input {
+  font-family: "Montserrat-Light";
+}
+#footer .row .col-md-8 .row .form-group select {
+  background: #45c245;
+  color: white;
+  font-family: "Montserrat-Light";
+}
+#footer .row .col-md-4 {
+  background: #131363;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+#footer .row .col-md-4 button {
+  border: 10px 10px 10px 10px;
+  width: 50%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
