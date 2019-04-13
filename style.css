@@ -83,41 +83,53 @@ body {
 }
 
 #footer {
+  background-size: cover;
+  width: auto;
+  height: auto;
+}
+#footer .row {
+  width: auto;
+  height: auto;
+}
+#footer .row #part_1 {
+  width: 60%;
+  height: auto;
   background: blue;
   background-size: cover;
-  width: 100%;
-  height: 17%;
 }
-#footer .row .col-md-8 .row {
-  margin-left: 3%;
-}
-#footer .row .col-md-8 .row .form-group {
+#footer .row #part_1 .row .form-group {
   margin-left: 3%;
   margin-top: 1%;
 }
-#footer .row .col-md-8 .row .form-group label {
+#footer .row #part_1 .row .form-group label {
   font-family: "Montserrat-Regular";
   color: white;
   text-transform: uppercase;
 }
-#footer .row .col-md-8 .row .form-group input {
+#footer .row #part_1 .row .form-group input {
   font-family: "Montserrat-Light";
 }
-#footer .row .col-md-8 .row .form-group select {
+#footer .row #part_1 .row .form-group select {
   background: #45c245;
   color: white;
   font-family: "Montserrat-Light";
 }
-#footer .row .col-md-4 {
-  background: #131363;
-  height: 100%;
-  width: 100%;
+#footer .row #part_2 {
+  background: rgba(10, 10, 102, 0.966);
   background-size: cover;
+  width: 40%;
 }
-#footer .row .col-md-4 button {
-  border: 10px 10px 10px 10px;
-  width: 50%;
-  height: 100%;
+#footer .row #part_2 button {
+  margin-left: 10%;
+  margin-top: 2.5%;
+  width: 80%;
+  height: 70%;
+  border-radius: 20px 20px 20px 20px;
+  background: #45c245;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat-Black";
+  font-size: 130%;
 }
 
 /*# sourceMappingURL=style.css.map */

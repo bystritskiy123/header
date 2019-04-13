@@ -111,15 +111,22 @@ body {
 
 
 #footer {
-    background: blue;
     background-size: cover;
-    width: 100%;
-    height: 17%;
+    width: auto;
+    height: auto;
 
     .row {
-        .col-md-8 {
+        width: auto;
+        height: auto;
+
+        #part_1 {
+            width: 60%;
+            height: auto;
+            background: blue;
+            background-size: cover;
+
             .row {
-                margin-left: 3%;
+
 
                 .form-group {
                     margin-left: 3%;
@@ -145,16 +152,22 @@ body {
             }
         }
 
-        .col-md-4 {
-            background: rgb(19, 19, 99);
-            height: 100%;
-            width: 100%;
+        #part_2 {
+            background: rgba(10, 10, 102, 0.966);
             background-size: cover;
+            width: 40%;
 
             button {
-                border: 10px 10px 10px 10px;
-                width: 50%;
-                height: 100%;
+                margin-left: 10%;
+                margin-top: 2.5%;
+                width: 80%;
+                height: 70%;
+                border-radius: 20px 20px 20px 20px;
+                background: $color-text_2;
+                color: $color-text;
+                text-transform: uppercase;
+                font-family: "Montserrat-Black";
+                font-size: 130%;
             }
         }
     }
