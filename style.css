@@ -92,7 +92,7 @@ body {
   height: auto;
 }
 #footer .row #part_1 {
-  width: 62%;
+  width: 64%;
   height: auto;
   background: blue;
   background-size: cover;
@@ -117,7 +117,7 @@ body {
 #footer .row #part_2 {
   background: rgba(10, 10, 102, 0.966);
   background-size: cover;
-  width: 38%;
+  width: 36%;
 }
 #footer .row #part_2 button {
   margin-left: 10%;
