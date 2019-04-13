@@ -61,7 +61,7 @@ body {
         }
 
         .navbar-nav {
-            margin-left: 30%;
+            margin-left: 20%;
 
             .nav-item {
                 font-family: "Montserrat-Bold";
@@ -100,7 +100,7 @@ body {
             font-family: "Montserrat-Bold";
             color: $color-text;
             border: 5px solid rgb(69, 194, 69);
-            width: 40%;
+            width: 42%;
             text-transform: uppercase;
             margin-left: 6%;
             font-size: 180%;
@@ -120,7 +120,7 @@ body {
         height: auto;
 
         #part_1 {
-            width: 60%;
+            width: 62%;
             height: auto;
             background: blue;
             background-size: cover;
@@ -155,7 +155,7 @@ body {
         #part_2 {
             background: rgba(10, 10, 102, 0.966);
             background-size: cover;
-            width: 40%;
+            width: 38%;
 
             button {
                 margin-left: 10%;
@@ -168,6 +168,219 @@ body {
                 text-transform: uppercase;
                 font-family: "Montserrat-Black";
                 font-size: 130%;
+            }
+        }
+    }
+}
+
+@media (min-width:360px) and (max-width:810px) {
+    #main {
+        .navbar {
+            #navbarNavAltMarkup {
+                background-color: red;
+            }
+        }
+
+        #images {
+            margin-top: 20%;
+
+            .column {
+                p {
+                    font-size: 105%;
+                }
+            }
+        }
+
+        #text {
+            margin-top: 60%;
+
+            h2 {
+                font-size: 170%;
+            }
+
+            h3 {
+                width: 90%;
+                font-size: 100%;
+            }
+        }
+    }
+
+    #footer {
+        .row {
+            #part_1 {
+                .form-group {
+                    margin-left: 0%;
+
+                    select {
+                        margin-left: 12%;
+                    }
+
+                    label {
+                        margin-left: 15%;
+                    }
+
+                    input {
+                        width: 97%;
+                        margin-left: 5%;
+                    }
+                }
+            }
+
+            #part_2 {
+                button {
+                    margin-top: 35%;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1023px) {
+    #main {
+        #images {
+            .column {
+                p {
+                    font-size: 200%;
+
+                    img {
+                        width: 7%;
+                    }
+                }
+            }
+        }
+
+        #text {
+            margin-top: 40%;
+
+            h2 {
+                font-size: 250%;
+            }
+
+            h3 {
+                width: 67%;
+                font-size: 160%;
+            }
+        }
+    }
+
+    #footer {
+        .row {
+            #part_2 {
+                button {
+                    margin-top: 10%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1024px) and (max-width:1365px) {
+    #main {
+        width: 115%;
+        height: 80%;
+        background-size: cover;
+
+        #images {
+            .column {
+                p {
+                    font-size: 250%;
+
+                    img {
+                        width: 5%;
+                    }
+                }
+            }
+        }
+
+        #text {
+            margin-top: 30%;
+
+            h3 {
+                width: 50%;
+            }
+        }
+
+        .navbar {
+            .navbar-nav {
+                margin-left: 10%;
+
+                .nav-item {
+                    font-size: 91.5%;
+                }
+            }
+        }
+    }
+
+    #footer {
+        width: 115%;
+
+        .row {
+            #part_1 {
+                .row {
+                    .form-group {
+                        input {
+                            width: 97%;
+                            margin-left: 0%;
+                        }
+                    }
+                }
+            }
+
+            #part_2 {
+                button {
+                    margin-top: 6%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1920px) {
+    #main {
+        .navbar {
+            .navbar-nav {
+                margin-left: 40%;
+            }
+        }
+
+        #images {
+            .column {
+                p {
+                    font-size: 220%;
+
+                    img {
+                        width: 2%;
+                    }
+                }
+            }
+        }
+
+        #text {
+            margin-top: 20%;
+
+            h3 {
+                width: 30%;
+            }
+        }
+    }
+
+    #footer {
+        .row {
+            #part_1 {
+                width: 55%;
+
+                .row {
+                    margin-left: 10%;
+                }
+            }
+
+            #part_2 {
+                width: 45%;
+
+                button {
+                    margin-top: 1.6%;
+                }
             }
         }
     }

@@ -45,7 +45,7 @@ body {
   font-family: "Montserrat-Black";
 }
 #main .navbar .navbar-nav {
-  margin-left: 30%;
+  margin-left: 20%;
 }
 #main .navbar .navbar-nav .nav-item {
   font-family: "Montserrat-Bold";
@@ -76,7 +76,7 @@ body {
   font-family: "Montserrat-Bold";
   color: white;
   border: 5px solid #45c245;
-  width: 40%;
+  width: 42%;
   text-transform: uppercase;
   margin-left: 6%;
   font-size: 180%;
@@ -92,7 +92,7 @@ body {
   height: auto;
 }
 #footer .row #part_1 {
-  width: 60%;
+  width: 62%;
   height: auto;
   background: blue;
   background-size: cover;
@@ -117,7 +117,7 @@ body {
 #footer .row #part_2 {
   background: rgba(10, 10, 102, 0.966);
   background-size: cover;
-  width: 40%;
+  width: 38%;
 }
 #footer .row #part_2 button {
   margin-left: 10%;
@@ -130,6 +130,133 @@ body {
   text-transform: uppercase;
   font-family: "Montserrat-Black";
   font-size: 130%;
+}
+
+@media (min-width: 360px) and (max-width: 810px) {
+  #main .navbar #navbarNavAltMarkup {
+    background-color: red;
+  }
+  #main #images {
+    margin-top: 20%;
+  }
+  #main #images .column p {
+    font-size: 105%;
+  }
+  #main #text {
+    margin-top: 60%;
+  }
+  #main #text h2 {
+    font-size: 170%;
+  }
+  #main #text h3 {
+    width: 90%;
+    font-size: 100%;
+  }
+
+  #footer .row #part_1 .form-group {
+    margin-left: 0%;
+  }
+  #footer .row #part_1 .form-group select {
+    margin-left: 12%;
+  }
+  #footer .row #part_1 .form-group label {
+    margin-left: 15%;
+  }
+  #footer .row #part_1 .form-group input {
+    width: 97%;
+    margin-left: 5%;
+  }
+  #footer .row #part_2 button {
+    margin-top: 35%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #main #images .column p {
+    font-size: 200%;
+  }
+  #main #images .column p img {
+    width: 7%;
+  }
+  #main #text {
+    margin-top: 40%;
+  }
+  #main #text h2 {
+    font-size: 250%;
+  }
+  #main #text h3 {
+    width: 67%;
+    font-size: 160%;
+  }
+
+  #footer .row #part_2 button {
+    margin-top: 10%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1365px) {
+  #main {
+    width: 115%;
+    height: 80%;
+    background-size: cover;
+  }
+  #main #images .column p {
+    font-size: 250%;
+  }
+  #main #images .column p img {
+    width: 5%;
+  }
+  #main #text {
+    margin-top: 30%;
+  }
+  #main #text h3 {
+    width: 50%;
+  }
+  #main .navbar .navbar-nav {
+    margin-left: 10%;
+  }
+  #main .navbar .navbar-nav .nav-item {
+    font-size: 91.5%;
+  }
+
+  #footer {
+    width: 115%;
+  }
+  #footer .row #part_1 .row .form-group input {
+    width: 97%;
+    margin-left: 0%;
+  }
+  #footer .row #part_2 button {
+    margin-top: 6%;
+  }
+}
+@media (min-width: 1920px) {
+  #main .navbar .navbar-nav {
+    margin-left: 40%;
+  }
+  #main #images .column p {
+    font-size: 220%;
+  }
+  #main #images .column p img {
+    width: 2%;
+  }
+  #main #text {
+    margin-top: 20%;
+  }
+  #main #text h3 {
+    width: 30%;
+  }
+
+  #footer .row #part_1 {
+    width: 55%;
+  }
+  #footer .row #part_1 .row {
+    margin-left: 10%;
+  }
+  #footer .row #part_2 {
+    width: 45%;
+  }
+  #footer .row #part_2 button {
+    margin-top: 1.6%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
