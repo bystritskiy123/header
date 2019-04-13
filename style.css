@@ -238,9 +238,6 @@ body {
   #main #images .column p img {
     width: 2%;
   }
-  #main #text {
-    margin-top: 20%;
-  }
   #main #text h3 {
     width: 30%;
   }
@@ -249,7 +246,7 @@ body {
     width: 55%;
   }
   #footer .row #part_1 .row {
-    margin-left: 10%;
+    margin-left: 5%;
   }
   #footer .row #part_2 {
     width: 45%;
